@@ -1,0 +1,4 @@
+:root{--fondo:#fff;--texto:#1a1a1a;--acento:#0a6cff}
+@media(prefers-color-scheme:dark){:root{--fondo:#111;--texto:#eee;--acento:#6aa8ff}}
+body{background:var(--fondo);color:var(--texto);font:17px/1.6 system-ui,sans-serif;max-width:42rem;margin:0 auto;padding:2rem 1rem}
+a{color:var(--acento)}h1,h2{line-height:1.2}
